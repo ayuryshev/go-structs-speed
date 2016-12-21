@@ -1,0 +1,39 @@
+{
+    "version": "0.1.0",
+    "isShellCommand": true,
+    "showOutput": "always",
+    "echoCommand": true,
+    "command": "sh",
+    "args": ["-c"],
+    "tasks": [
+        {
+            "taskName":"build",
+            "isBuildCommand": true,
+            "suppressTaskName": true,
+            "args": [ 
+                "echo Building && pwd && go build -v"
+            ],
+            "echoCommand": true,
+            "showOutput": "always"                   
+        },
+        {
+            "taskName": "clean",
+            "args": [      
+              "go",  "clean"      
+            ],
+            "echoCommand": true,
+            "showOutput": "always"
+        },
+        {
+            "taskName": "echo vars",
+            "suppressTaskName": true,            
+            "args": [
+                "echo\n",
+                "echo", "${workspaceRoot}", "\n",
+                "echo", "${workspaceRootFolderName}", "\n"
+            ]
+        }
+
+    ]
+    
+}

@@ -1,0 +1,39 @@
+{   
+    "go.docsTool": "gogetdoc",
+    "go.buildOnSave": true,
+    "go.lintOnSave": true,
+    "go.vetOnSave": true,
+    "go.buildTags": "",
+    "go.buildFlags": [],
+    "go.lintTool": "gometalinter",
+    "go.lintFlags": [],
+    "go.vetFlags": [],
+    "go.coverOnSave": true,
+    "go.useCodeSnippetsOnFunctionSuggest": false,
+    "go.formatOnSave": true,
+    "go.formatTool": "goreturns",
+    "go.formatFlags": [],
+    "go.goroot": "/usr/local/go",
+    "go.gopath": "/home/isk/src/go",
+    "go.gocodeAutoBuild": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "debug":true,
+        "dublon":true               
+    },
+// Workbench
+"workbench.editor.showIcons": true,
+"markdown.styles": [
+        "markdown.css"
+    ],
+  "copy-syntax.defaults.lang": "go",
+  "copy-syntax.showMessage": true,
+  "copy-syntax.formatters.rtf": {
+    "style": "default",
+    "fontsize": 14,
+    "fontface": "Monaco"
+  }
+}
