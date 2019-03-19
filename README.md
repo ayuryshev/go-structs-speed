@@ -1,5 +1,13 @@
 # Speed of golang structures
 
+**UPDATE**
+
+This project has just historical value and mostly for me myself.
+Some kind of  "À la recherche du temps perdu".
+
+Sometimes I think to look into it and analyze what I did wrong and whole scale of it.
+Who knows maybe it's not that bad ;)
+
 ## Description
 
 This collection of tests answers questions "What is faster in the best case? And how much?"
